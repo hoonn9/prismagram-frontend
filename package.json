@@ -1,7 +1,7 @@
 {
   "name": "prismagram-frontend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -16,7 +16,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1",
     "react-toastify": "^5.5.0",
-    "styled-components": "^5.0.1",
+    "styled-components": "4.1.3",
     "styled-reset": "^4.1.0"
   },
   "scripts": {
@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://vigorous-turing-55e20e.netlify.com/"
+  "homepage": "."
 }

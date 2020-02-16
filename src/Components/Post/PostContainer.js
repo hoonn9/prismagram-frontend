@@ -31,12 +31,10 @@ const PostContainer = ({
 
   const slide = () => {
     const totalFiles = files.length;
-    if (totalFiles) {
-      if (currentItem === totalFiles - 1) {
-        setTimeout(() => setCurrentItem(0), 3000);
-      } else {
-        setTimeout(() => setCurrentItem(currentItem + 1), 3000);
-      }
+    if (currentItem === totalFiles - 1) {
+      setTimeout(() => setCurrentItem(0), 3000);
+    } else {
+      setTimeout(() => setCurrentItem(currentItem + 1), 3000);
     }
   };
 
